@@ -16,8 +16,8 @@
 
 package xiaofans.threadsample;
 
-import com.example.android.threadsample.PhotoDecodeRunnable.TaskRunnableDecodeMethods;
-import com.example.android.threadsample.PhotoDownloadRunnable.TaskRunnableDownloadMethods;
+import xiaofans.threadsample.PhotoDecodeRunnable.TaskRunnableDecodeMethods;
+import xiaofans.threadsample.PhotoDownloadRunnable.TaskRunnableDownloadMethods;
 
 import android.graphics.Bitmap;
 

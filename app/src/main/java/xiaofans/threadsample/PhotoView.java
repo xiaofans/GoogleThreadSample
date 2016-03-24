@@ -26,7 +26,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
 
-
 import java.lang.ref.WeakReference;
 import java.net.URL;
 

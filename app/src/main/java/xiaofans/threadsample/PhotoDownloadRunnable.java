@@ -16,7 +16,6 @@
 
 package xiaofans.threadsample;
 
-import com.example.android.threadsample.PhotoDecodeRunnable.TaskRunnableDecodeMethods;
 
 import java.io.EOFException;
 import java.io.IOException;
@@ -29,7 +28,7 @@ import java.net.URL;
  * has finished, it calls handleState to report its results.
  *
  * Objects of this class are instantiated and managed by instances of PhotoTask, which
- * implements the methods of {@link TaskRunnableDecodeMethods}. PhotoTask objects call
+ * implements the methods of {@link }. PhotoTask objects call
  * {@link #PhotoDownloadRunnable(TaskRunnableDownloadMethods) PhotoDownloadRunnable()} with
  * themselves as the argument. In effect, an PhotoTask object and a
  * PhotoDownloadRunnable object communicate through the fields of the PhotoTask.
